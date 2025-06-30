@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position : 2
 ---
 
-# Leave Request
+# Internal Leave Request
+
+  Internal Leave Request flows are same as Leave Request only the leave type is different, other than that both are same.
 
   **Leave Creation :** Initiated by User or Customer through Case Management.
 
@@ -84,8 +86,8 @@ The vacation request is created in Case Management and managed in the HR system.
     - **Non Business Employees -** Starts Travel Request Process.
 
   - **Actions -**
-    - **Complete -** Move to Under Processing.
-    - **Reject -** Move to Rejected Request.
+    - **Complete -** Moves to Under Processing.
+    - **Reject -** Moves to Rejected Request.
 
 ### 4. Under Processing
 
@@ -130,7 +132,7 @@ The vacation request is created in Case Management and managed in the HR system.
     - The last vacation return date or arrival date.
     - Up to the employee's Last Working Date (LWD)
 
-## Workflow Stages & Actions:
+### Workflow Stages & Actions:
 
 #### 1. Requested
 
