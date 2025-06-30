@@ -4,9 +4,15 @@ sidebar_position : 6
 
 # Escape
 
-  - An Escape Request can be created either manually by the user or automatically from an individual module.
+This process is used to handle cases where an employee escapes from a customer site or lodging.
 
-  - The employee’s status is initially set to Missing - Missing.
+  - A request is created when an employee is reported missing.
+
+  - The user must attach the escape documentation along with customer acknowledgment.
+
+  - Once the request is created, the employee will be removed from the customer contract (if currently working).
+
+  - The user may perform a Return from Escape action before the process is completed.
 
 **After 10 Days**
 

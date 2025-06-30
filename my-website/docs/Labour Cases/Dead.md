@@ -4,7 +4,11 @@ sidebar_position : 3
 
 # Dead
 
-  In case of employee is diseased or caught dead for some other reasons will update here.
+  - Applicable when an employee has passed away.
+
+  - Upon request creation, the employee will be removed from the customer contract (if actively working).
+
+  - Once the death transaction is completed, the retirement process will be initiated.
 
 ## Workflow Stages & Actions :
 

@@ -10,21 +10,17 @@ sidebar_position : 1
 
 **Rest Process will start based on sub-category as follows :**
 
-  - **Reserved For VIP**
+  - Local Vacation
 
-    - Process starts with Reserved for VIP stage.
-    - Employee status changed to "Reserved For VIP".
+  - Documentation
 
-  - **Reserved For Sales**
+  - Reserved for VIP
 
-    - Process starts with Reserved for Sales stage.
-    - Employee status changed to Reserved For Sales.
+  - Reserved for Sales
 
-  - **Other Sub-Category**
+  - Hourly Reserved
 
-    - Process starts with New stage.
-
-    - Employee status changed to Rest.
+  - Waiting for Document
 
 ## Workflow Stages & Actions :
 

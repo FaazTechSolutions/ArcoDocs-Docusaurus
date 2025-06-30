@@ -1,0 +1,8 @@
+{
+  "label": "Send Document",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about Arco HRM Employee full workflow concepts."
+  }
+}

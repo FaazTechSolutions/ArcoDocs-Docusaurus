@@ -4,11 +4,11 @@ sidebar_position : 4
 
 # Jail
 
-  - In this stage, the employee’s status is updated to Absent.
+  - When a request is created, the employee will be removed from the customer contract (if currently working).
 
-  - If the employee is assigned to a customer, the contract with the customer must be terminated.
+  - Upon completion of the transaction, the retirement process will be triggered.
 
-  - If the employee is staying in company lodging, the Check-Out process should be initiated for the employee.
+  - Users have the option to reject the transaction if needed.
 
 ## Workflow Stages & Actions :
 

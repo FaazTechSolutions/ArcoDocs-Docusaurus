@@ -4,9 +4,9 @@ sidebar_position : 5
 
 # Hospital
 
-  - It shows the hospitalized employees due to sick/illness.
+  - Used to manage hospital and sick leave processes for employees.
 
-  - It shows the process of employee hospitalizing and recovery.
+  - It shows the hospitalized employees due to sick/illness.
 
 ## Workflow Stages & Actions :
 
@@ -38,6 +38,10 @@ sidebar_position : 5
 ### 4. Sick Leave
 
   - Displays list of employees in Sick Leave.
+
+  - Users update the number of sick leave days.
+
+  - If the sick leave days exceed the allowed limit, the request moves to Waiting for Action.
 
   - **Actions :**
     - **Waiting for Action -** Moves to Waiting for Action stage.
