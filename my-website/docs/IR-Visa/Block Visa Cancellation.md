@@ -4,7 +4,13 @@ sidebar_position : 4
 
 # Block Visa Cancellataion
 
-This process allows users to cancel previously approved visas that are part of a Block Visa and initiate a refund workflow. 
+This module allows users to initiate and process the cancellation of approved Block Visas and manage the associated financial refunds.
+
+**Key Functionality:**
+
+  - **Who Can Use:** Authorized users
+
+  - **When to Use:** After a Block Visa is approved but needs to be revoked before use.
 
   - When a user wants to cancel a visa, they create a Block Visa Cancellation with the following details:
 
@@ -24,9 +30,9 @@ This process allows users to cancel previously approved visas that are part of a
 
 ### 1. Cancellation Approval
 
-  - User creates the cancellation request.
+  - User creates the Block Visa Cancellation Request.
 
-  - Sent for Finance Department confirmation.
+  - Sent to finance for confirmation and verification.
 
   - **Actions :**
     - **Finance Confirmation -** Moves to Finance Confirmation stage.
@@ -36,7 +42,9 @@ This process allows users to cancel previously approved visas that are part of a
 
   - Finance reviews and confirms the cancellation.
 
-  - Triggers a refund of 2,000 Riyals per visa.
+  - Once confirmed, the system proceeds to the Refund stage.
+
+  - **Refund amount:** 2,000 Riyals per visa.
 
   - **Actions :**
     - **Hold -** Moves to Hold stage.
@@ -50,7 +58,7 @@ This process allows users to cancel previously approved visas that are part of a
 
   - The cancellation process is fully done.
 
-  - All data is locked/read-only.
+  - Refund of 2,000 Riyals per visa is recorded as completed.
 
 ### 5. Hold
 

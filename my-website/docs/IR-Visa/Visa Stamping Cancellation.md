@@ -4,18 +4,16 @@ sidebar_position : 5
 
 # Visa Stamping Cancellation
 
-This process is used when a visa has been stamped but the person has not arrived, and the visa needs to be cancelled to recover the cost.
+This process is triggered when a candidate is rejected during the selection process, even though their visa has already been stamped but they have not yet arrived. A Visa Stamping Cancellation Request is created to manage and track the cancellation.
 
-**Purpose :**
+**Trigger Condition:**
 
-  - Apply cancellation on visas that are stamped but unused.
+  - Candidate is rejected during the selection process.
 
-  - User can reject the visa if needed.
+  - Visa has been stamped.
 
-  - Follows the same process as **"Stamping Cancellation"**.
-
-  - **Refund amount:** 2,000 Riyals per cancelled visa.
-
+  - Candidate has not arrived.
+  
 ### Workflow Stages & Actions :
 
 ### 1. Document Preparation

@@ -4,7 +4,7 @@ sidebar_position : 2
 
 # Ewakala Mussaned Request
 
-This request is used to generate an Ewakala via the Mussaned platform, and it follows a similar flow to the Visa process.
+Ewakala Mussanad is a specialized type of Ewakala request, created for individual candidates based on specific professions, following a similar workflow to the general Ewakala Request process.
 
   - This request is similar to a visa request, but processed through the Mussaned platform (used for domestic worker recruitment and related services).
 

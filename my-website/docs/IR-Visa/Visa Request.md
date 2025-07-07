@@ -4,37 +4,33 @@ sidebar_position : 1
 
 # Visa Request
 
-When creating a Visa Request, users must provide the following:
+**Visa Module**
 
-  - Requested By (User initiating the request)
-  - Requester (Person for whom the visa is being requested)
+This module is designed to manage Visa Requests, Ewakala Requests, and Visa Balance efficiently through a well-defined workflow.
+
+Allows users to initiate and process visa applications through multiple approval stages.
+
+  - Requested By
+  - Requester
   - Sector
   - Employee Type
   - Contract Number
-
-### Visa Request Lines
-
-  - Can be created and managed in the **Draft** stage.
-
-  - Per-visa price is fixed at 2,000 Riyal
-
-Each line represents a group of visa requirements with the following fields:
-
-  - Nationality
-  - Profession
-  - Gender
-  - Requested Qty
-  - Destination
 
 ### Workflow Stages & Actions :
 
 ### 1. Draft
 
-  - Initial stage where request is being prepared.
+  - User can create Visa Request Lines on the Visa Request details page.
 
-  - Visa Request Lines can be created or edited here.
+  - Price per Visa: 2,000 Riyals.
 
-  - Once ready, it can be submitted for Management Approval.
+  - Fields in Visa Request Line:
+
+    - Nationality
+    - Profession
+    - Gender
+    - Requested Quantity
+    - Destination
 
   - **Actions :**
     - **Sent to Approval -** Moves to Approval stage.
@@ -42,7 +38,7 @@ Each line represents a group of visa requirements with the following fields:
 
 ### 2. Approval
 
-  - Displays the requests send for the Management Approval.
+  - Send request for Management Approval.
 
   - Once approved, it moves to the Visa Quota Request stage.
 
@@ -53,9 +49,7 @@ Each line represents a group of visa requirements with the following fields:
 
 ### 3. Visa Quota Approval
 
-  - Quota approval is requested.
-
-  - Once approved, the request moves to Finance Approve stage.
+  - The request is reviewed and sent for Finance Approval.
 
   - **Actions :**
     - **Approved -** Request Approved and Moves to Finance Approve stage.
@@ -83,7 +77,11 @@ Each line represents a group of visa requirements with the following fields:
 
 ### 6. Submitted
 
-  - Request is officially submitted and awaiting final decision.
+  - User updates visa details from the government portal:
+
+    - Visa Number
+    - Issue Date
+    - Expiry Date
 
   - **Actions :**
     - **Approved -** Moves to Approved stage.
@@ -92,10 +90,10 @@ Each line represents a group of visa requirements with the following fields:
 
 ### 7. Approved
 
-  - Final approval has been granted.
+  - Visa is officially approved.
 
-  - Visa can be processed accordingly.
+  - A Block Visa and associated lines are generated based on the request.
 
 ### 8. Rejected
 
-  - Request has been rejected at any stage before final approval.
+  - The request is denied; no further processing occurs.

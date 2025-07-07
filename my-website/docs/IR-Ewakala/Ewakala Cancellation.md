@@ -4,17 +4,18 @@ sidebar_position : 3
 
 # Ewakala Cancellation
 
-This is the process of canceling an existing Ewakala, which is the official authorization used for visa processing.
+The Ewakala Cancellation process allows users to revoke an issued Ewakala authorization that is no longer needed or was issued in error.
 
-  - The flow is the same as Visa Cancellation, but applied specifically to Ewakala.
+**Key Functionalities:**
 
-  - Typically used when an authorization is no longer needed or has errors.
+  - **Initiated From:**
 
-  - Cancels the Ewakala authorization tied to a visa or Mussaned request.
+    - Demand Letter page
+    - Or directly from the Ewakala page
 
-  - May involve interaction with the Enjaz platform.
+  - **Cancellation Outcome:**
 
-  - Requires appropriate approvals and payment before cancellation is finalized.
+    - Once the cancellation process is successfully completed, the **Ewakala status is updated to "Cancelled"**.
 
 ### Workflow Stages & Actions :
 

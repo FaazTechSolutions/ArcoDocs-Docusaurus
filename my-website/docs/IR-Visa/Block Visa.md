@@ -4,13 +4,13 @@ sidebar_position : 2
 
 # Block Visa
 
-  - A Block Visa is created after a Visa Request is approved.
+  - The Block Visa is generated automatically once a Visa Request is approved. It serves as the foundation for downstream visa processing activities like stamping, enjaz, and assignment.
 
-  - It represents a group of confirmed visa requests that are ready for further processing
+  - **Created After:** A Visa Request reaches the Approved stage.
 
-  - User can action to Block Visa Cancel.
+  - **Status:** Block visa is now ready for further processing and tracking.
 
-  - In Block Visa details page, User can Create;
+  - In Block Visa details page, have following;
 
     - Block Visa Lines
     - Visa Assignment By Block Visa

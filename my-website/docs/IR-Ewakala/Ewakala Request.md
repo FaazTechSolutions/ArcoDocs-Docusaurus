@@ -4,15 +4,28 @@ sidebar_position : 1
 
 # Ewakala Request
 
-An Ewakala Request is used to generate an official authorization (Ewakala) for visa processing, typically created from a Demand Letter.
+The Ewakala Request facilitates the issuance of legal authorization (Ewakala) required for processing visas, created based on a valid Demand Letter and Delegation Number.
 
-  - Created from a Demand Letter.
+**Key Functionalities:**
 
-  - Requires a Delegation Number to initiate.
+  - **Created From:**
 
-  - User has the option to cancel the Ewakala at any time before completion.
+    - Demand Letter
+    - Must have a valid Delegation Number to proceed.
 
-  - Once the process is completed, the official Ewakala document is received.
+  - **Ewakala Lifecycle:**
+
+    - User initiates the request using the Demand Letter and Delegation Number.
+    - System tracks the progress of the request until completion.
+
+  - **User Actions:**
+
+    - Can create a new Ewakala Request.
+    - Can cancel an Ewakala Request before completion.
+
+  - **Outcome:**
+
+    - Once the flow is completed successfully, the system generates the final Ewakala document/number.
 
 ### Workflow Stages & Actions :
 
