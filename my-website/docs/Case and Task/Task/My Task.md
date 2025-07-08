@@ -40,58 +40,73 @@ Allows users to manage tasks and collaborate across departments.
 
   - Users can add attachments and comments on the task details page.
 
-### Workflow Stages :
+### Common Workflow Stages and Actions for the Pages in My Task
 
 ### 1. New
 
   - Default initial status when a task is created.
 
-### 2. To Do
+  - **Actions :**
+    - **Doing -** Start Task, Moves to InProgress stage.
+    - **Forward -** Task is forwarded to another department. Assigned to the **new user**.
+    - **Reply -** Reassign the task back to the original creator. Status becomes **New**.
+    - **Cancel -** Task is canceled with a required comment. Moves to Cancelled stage.
 
-  - Task is started and in progress.
+### 2. InProgress
 
-### 3. Forward
+  - The task is actively being worked on.
 
-  - Task is sent to another department and assigned to a new user.
+  - **Actions :**
+    - **Complete -** Completed Task, Moves to Resolved stage.
+    - **Cancel -** Task is canceled with a required comment. Moves to Cancelled stage.
+    - **Forward -** Task is forwarded to another department. Assigned to the **new user**.
+    - **Reply -** Reassign the task back to the original creator. Status becomes **New**.
 
-  - Status resets to New.
-
-### 4. Reply
-
-  - Task is reassigned back to the original creator.
-
-  - Status resets to New.
-
-### 5. Cancel
-
-  - Task is canceled with comments explaining the reason.
-
-### 6. Close
+### 3. Resolved
 
   - Task is marked as completed and closed with comments.
 
-### Types of Tasks
+  - **Actions :**
+    - **ReOpen -** To Reopen the Resolved task, Moves to Reopen stage.
 
-There are three types of tasks, each based on its source and purpose:
+### 4. Cancelled
 
-**1. Internal Task**
+  - The task has been canceled, with comments explaining the reason.
 
-  - Created manually by users.
+### 5. ReOpen
 
-  - Used for communication and coordination within internal departments (e.g., HR, Finance, Admin).
+  - A previously Resolved or Cancelled task has been reopened for further action.
 
-**2. Individual Sector Task**
+  - **Actions :**
+    - **Doing -** Start Task, Moves to InProgress stage.
+    - **Forward -** Task is forwarded to another department. Assigned to the **new user**.
+    - **Reply -** Reassign the task back to the original creator. Status becomes **New**.
+    - **Cancel -** Task is canceled with a required comment. Moves to Cancelled stage.
 
-  - Linked to Individual Tickets.
+------------------------------------------------
 
-  - Created either from a ticket or manually by a user.
+### My Task Module Includes,
 
-  - Related to individual candidates or requests (e.g., passport issues, stamping, travel updates).
+  1. Pending Task with Me
+  2. Created by Me
+  3. Related to Me
 
-**3. Business Sector Task**
+ > **Note :** The Workflow Stages and Actions are common for Task module which have been given above.
 
-  - Linked to Business Tickets.
+### 1. Pending Task with Me
 
-  - Created either from a ticket or manually by a user.
+  - Tasks that are currently assigned to you and waiting for your action.
 
-  - Used for handling business client–related actions (e.g., job order issues, client complaints, updates).
+  - Includes tasks in statuses like New, Todo, or InProgress.
+
+### 2. Created by Me
+
+  - Tasks that you have created.
+
+  - Useful for tracking progress and updates, even if someone else is assigned.
+
+### 3. Related to Me
+
+  - Tasks where you are involved but not the main assignee.
+
+  - Could include tasks forwarded by you, reassigned to you, or where you've added comments or attachments.
