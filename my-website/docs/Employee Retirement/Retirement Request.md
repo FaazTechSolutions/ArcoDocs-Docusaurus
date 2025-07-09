@@ -199,4 +199,4 @@ The retirement request is created in Case Management and managed in the HR syste
 
 ### 11. Completed
 
-  - Completed requests are displayed in this stage.  
+  - Completed requests are displayed in this stage.
