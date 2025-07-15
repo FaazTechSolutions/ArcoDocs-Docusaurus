@@ -27,17 +27,26 @@ To handle employee replacements under a contract, with or without associated fee
 
   - Customer/User can make payment for the Replacement Fee.
   - Once payment is made:
-    - Request moves to **Accountant Approval**.
+
+  - **Actions :**
+    - **Complete -** Request moves to **Accountant Approval**.
+    - **Reject -** Request closed and moved to **Completed** stage.
 
 ### 2. Accountant Approval
 
   - **Finance User** reviews and approves. 
   - Manually moved to **Finance Manager Approval**.
 
+  - **Actions :**
+    - **Complete -** Moved to **Finance Manager Approval** stage.
+
 ### 3. Finance Manager Approval
 
   - Finance Manager gives final approval.
   - Request proceeds to Completed.
+
+  - **Actions :**
+    - **Complete -** After Finance Manager Approved, Moved to **Completed** stage.
 
 ### 4. Completed
 

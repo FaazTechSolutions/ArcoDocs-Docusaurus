@@ -26,10 +26,10 @@ sidebar_position : 4
 
 ### 1. Payment
 
-  - **If No Contract Due Amount:**
+  - **If No Contract Due Amount :**
     - Stage is skipped, request moves to **Accountant Approval**.
 
-  - **If There Is a Due Amount:**
+  - **If There Is a Due Amount :**
 
     - **Customer must pay** the outstanding amount.
     - After payment confirmation, request proceeds to **Accountant Approval**.

@@ -94,6 +94,10 @@ sidebar_position : 3
 
       - Request is then moved to the **Payment Stage.**
 
+  - **Actions :**
+    - **Complete -** Moved to **Payment** stage.
+    - **Cancel -** Moved to **Cancelled** stage.
+
 ### 2. Payment
 
   - **If No Contract Due Amount:**
@@ -106,9 +110,16 @@ sidebar_position : 3
 
     - Once payment is confirmed, request proceeds to **Finance Manager Approval**.
 
+  - **Actions :**
+    - **Complete -** Moved to **Finance Manager Approval** stage.
+    - **Cancel -** Moved to **Cancelled** stage.
+
 ### 3. Finance Manager Approval
 
 A Finance User must approve and manually **advance to the next stage**.
+
+  - **Actions :**
+    - **Complete -** Moved to **Refund** stage.
 
 ### 4. Refund
 
@@ -118,6 +129,10 @@ A Finance User must approve and manually **advance to the next stage**.
 
   - Once the **Refund is completed**, the request progresses to the **Contract Settlement Verification** stage.
 
+  - **Actions :**
+    - **Complete -** Moved to **Contract Settlement Verification** stage.
+    - **Cancel -** Moved to **Cancelled** stage.
+
 ### 5. Contract Settlement Verification
 
   - A **Finance User** reviews and **completes** the contract settlement.
@@ -126,8 +141,15 @@ A Finance User must approve and manually **advance to the next stage**.
 
     - The user can print the **"Settlement Report"** directly from the contract.
 
+  - **Actions :**
+    - **Complete -** Moved to **Completed** stage.
+
 ### 6. Completed
 
   - Final stage of the termination process.
 
   - All steps have been verified, and the contract is formally settled and closed.
+
+### 7. Cancel
+
+  - If needed, the process can be cancelled at any stage before completion.

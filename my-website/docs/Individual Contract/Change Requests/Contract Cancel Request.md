@@ -65,6 +65,9 @@ sidebar_position : 1
     - A penalty invoice is generated.
     - Request moves to **Payment** stage.
 
+  - **Actions :**
+    - **Complete -** Once Accountant Approved, moved to the **Payment** stage.
+
 ### 2. Payment
 
   - If the contract has **no due amount:**
@@ -77,11 +80,17 @@ sidebar_position : 1
 
     - After payment, request proceeds to **Finance Manager Approval**.
 
+  - **Actions :**
+    - **Complete -** Once Payment completed, moved to the **Finance Manager Approval** stage.
+
 ### 3. Finance Manager Approval
 
   - Finance user reviews and approves the request.
 
   - Request moves to the next appropriate stage.
+
+  - **Actions :**
+    - **Complete -** After Finance Manager Approved, moved to **Refund** stage.
 
 ### 4. Refund
 
@@ -89,7 +98,8 @@ sidebar_position : 1
 
   - System creates a **refund request** using refund details.
 
-  - After refund is processed, request moves to **Contract Settlement Verification**.
+  - **Actions :**
+    - **Complete -** After refund is processed, request moves to **Contract Settlement Verification**.
 
 ### 5. Contract Settlement Verification
 
@@ -98,6 +108,9 @@ sidebar_position : 1
   - Once verified, request moves to **Completed**.
 
   - User can now **print the Contract Settlement Report**.
+
+  - **Actions :**
+    - **Complete -** Once Contract Settlement Verification is completed, moved to the **Completed** stage.
 
 ### 6. Completed
 
