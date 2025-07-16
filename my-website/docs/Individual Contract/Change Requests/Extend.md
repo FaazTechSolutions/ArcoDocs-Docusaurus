@@ -50,8 +50,20 @@ To extend contract validity by adding new days against payment.
 
         - **Total days = Used Line Days**
 
+  - **Actions :**
+    - **Complete -** Moved to **Completed** stage.
+    - **Cancel -** Moved to **Cancel** stage.
+
 ### 2. Completed
 
   - Final stage of the extension process.
 
   - The contract is successfully **extended**, and system reflects the new validity period.
+
+  - _No further actions required._
+
+### 3. Cancel
+
+  - Extension request can be canceled before completion.
+
+  - _No further actions required._

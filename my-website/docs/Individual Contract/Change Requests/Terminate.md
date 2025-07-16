@@ -150,6 +150,8 @@ A Finance User must approve and manually **advance to the next stage**.
 
   - All steps have been verified, and the contract is formally settled and closed.
 
+  - _No further actions required._
+
 ### 7. Cancel
 
   - If needed, the process can be cancelled at any stage before completion.

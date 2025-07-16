@@ -34,21 +34,36 @@ sidebar_position : 6
 
         - **If Transport Cost = 0**, this stage is skipped, and request moves directly to **Pickup From Home**.
 
+  - **Actions :**
+    - **Complete -** Moved to **Pickup From Home** stage.
+    - **Cancel -** Moved to **Cancel** stage.
+
 ### 2. Pickup From Home
 
   - Triggers the **"Return From Home"** process to arrange employee pickup from the customer's location.
 
   - Once pickup is completed, request proceeds to **Request for Check-in**.
 
+  - **Actions :**
+    - **Received -** Moved to **Request for Check-in** stage.
+    - **Cancel -** Moved to **Cancelled** stage.
+
 ### 3. Request for Check-in
 
   - A Lodging User transitions the request to the next stage: **Waiting for Check-in Request**.
+
+  - **Actions :**
+    - **Complete -** Moved to **Waiting for Check-in Request** stage.
+    - **Cancel -** Moved to **Cancel** stage.
 
 ### 4. Waiting for Check-in Request
 
   - A **Check-in Request** is created in the **Lodging Module** for the requested location.
 
   - Once the Check-in Request completes its **"Waiting for Check-in"** stage, the return request moves to **Completed**.
+
+  - **Actions :**
+    - **Cancel -** Moved to **Cancel** stage.
 
 ### 5. Completed
 

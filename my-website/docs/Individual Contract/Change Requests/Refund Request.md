@@ -30,15 +30,27 @@ To handle customer refund requests originating from contract-related actions or 
 
   - Accountant reviews the refund request and confirms the validity and source of funds.
 
+  - **Actions :**
+    - **Complete -** Moved to **Finance Manager Review** stage.
+    - **Reject -** Reject and Moved to **Completed** stage.
+
 ### 2. Finance Manager Review
 
   - Finance Manager performs final review and approval before processing refund.
+
+  - **Actions :**
+    - **Complete -** Moved to **Refund** stage.
+    - **Reject -** Reject and Moved to **Completed** stage.
 
 ### 3. Refund
 
   - User selects the **Refund Method** (e.g., bank transfer, original payment method, etc.).
 
   - Once method is selected and confirmed, stage is marked complete.
+
+  - **Actions :**
+    - **Complete -** Moved to **Completed** stage.
+    - **Reject -** Reject and Moved to **Completed** stage.
 
 ### 4. Completed
 

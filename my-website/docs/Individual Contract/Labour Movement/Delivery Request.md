@@ -40,9 +40,16 @@ To deliver an employee to the customer using one of the available delivery metho
 
   - **If Payment is completed** or **Delivery Fee = 0**, request moves to **Request for Checkout.**
 
+  - **Actions :**
+    - **Complete -** Moved to **Request for Check-out** stage.
+
 ### 2. Request for Checkout
 
   - **Lodging User** transitions the request to **Waiting for Checkout**.
+
+  - **Actions :**
+    - **Complete -** Request Moved to **Waiting for Checkout** stage.
+    - **Reject -** Moved to **Cancelled** stage.
 
 ### 3. Waiting for Checkout
 
@@ -59,7 +66,10 @@ To deliver an employee to the customer using one of the available delivery metho
 
 ### 4. CSE Confirmation
 
-Customer Service Executive (CSE) reviews and advances the request to the next stage.
+  - Customer Service Executive (CSE) reviews and advances the request to the next stage.
+
+  - **Actions :**
+    - **Complete -** Moved to **Delivery to Home** stage.
 
 ### 5. Delivery to Home
 
@@ -69,10 +79,16 @@ Customer Service Executive (CSE) reviews and advances the request to the next st
 
   - Once delivery is completed, request moves to **Customer Confirmation**.
 
+  - **Actions :**
+    - **Received -** If Employee Received, Moved to **Customer Confirmation** stage.
+
 ### 6. Customer Confirmation
 
   - User confirms delivery with the customer.
   - Once confirmed, request moves to **Delivered stage**.
+
+  - **Actions :**
+    - **Complete -** Moved to **Delivered** stage.
 
 ### 7. Delivered
 

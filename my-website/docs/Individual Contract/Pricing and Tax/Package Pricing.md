@@ -92,3 +92,41 @@ Short-term, day-based contracts.
   - Period
 
 These fixed packages will appear as selectable options in the mobile app.
+
+### Workflow Stages and Actions :
+
+### 1. Draft
+
+  - Newly Created Package shows here.
+
+  - **Actions :**
+    - **Activate -** Activate the package and moved to **Active All** stage.
+    - **Activate Show in Portal -** Activate the package in portal and Moved to **Active in Portal** stage.
+
+### 2. Active All
+
+  - This shows the All Currently Active package list.
+
+  - **Actions :**
+    - **De-Activate -** DeActivate the package and Moved to **Not Active** stage.
+    - **Show in Portal -** Moved to **Active in Portal** stage.
+    - **Activate Show in Portal -** Activate the package in portal and Moved to **Active in Portal** stage.
+    - **Move to Draft -** Return to **Draft** stage.
+
+### 3. Active in Portal
+
+  - This shows the Currently Active packages in portal.
+
+  - **Actions :**
+    - **De-Activate -** DeActivate the package and Moved to **Not Active** stage.
+    - **Hide from Portal -** 
+    - **Move to Draft -** Return to **Draft** stage.
+
+### 4. Not Active
+
+  - This shows the DeActivated or Inactive packages list.
+
+  - **Actions :**
+    - **Activate -** Moved to the **Active All** stage.
+    - **Activate Show in Portal -** Moved to **Active in Portal** stage.
+    - **Move to Draft -** Return to **Draft** stage.

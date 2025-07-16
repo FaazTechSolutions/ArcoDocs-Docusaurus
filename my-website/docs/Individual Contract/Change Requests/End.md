@@ -34,9 +34,16 @@ sidebar_position : 4
     - **Customer must pay** the outstanding amount.
     - After payment confirmation, request proceeds to **Accountant Approval**.
 
+  - **Actions :**
+    - **Complete -** Moved to **Accoutant Approval** stage.
+    - **Reject -** Closed and Moved to **Completed** stage.
+
 ### 2. Accountant Approval
 
   - A Finance User manually reviews and **advances** the request to the next stage.
+
+  - **Actions :**
+    - **Complete -** Moved to **Contract Settlement Verification** stage.
 
 ### 3. Contract Settlement Verification
 
@@ -46,10 +53,16 @@ sidebar_position : 4
 
     - **Settlement Report** can be **printed** from the contract.
 
+    - **Actions :**
+      - **Complete -** Moved to **Finance Manager Approval** stage.
+
 ### 4. Finance Manager Approval
 
   - Reviewed and **approved** by the **Finance Manager**.
   - Manually moved to **Completed**.
+
+  - **Actions :**
+    - **Complete -** Moved to **Completed** stage.
 
 ### 5. Completed
 
