@@ -4,7 +4,7 @@
 
 **Employee**
 
-  1.1 [Employee List](/my-website/docs/HRM/Employee/Employee%20List.md)
+  <!-- 1.1 [Employee List](/my-website/docs/HRM/Employee/Employee%20List.md)
   
   1.2 [Employee Contract](/my-website/docs/HRM/Employee/Employee%20Contract.md)
 
@@ -78,7 +78,7 @@
 
   <!-- 1.33 [Internal Retirement Request]() -->
 
-  1.34 [Retirement Request Reject](/my-website/docs/HRM/Employee%20Retirement/Retirement%20Reject%20Request.md)
+  <!-- 1.34 [Retirement Request Reject](/my-website/docs/HRM/Employee%20Retirement/Retirement%20Reject%20Request.md)
 
   1.35 [EOS Setup](/my-website/docs/HRM/Employee%20Retirement/EOS%20Setup.md)
 
@@ -158,4 +158,4 @@
 
   2.14 [Rest](/my-website/docs/Lodging/Labour%20Cases/Rest.md)
 
-  2.15 [Refuse to Work](/my-website/docs/Lodging/Labour%20Cases/Refuse%20to%20Work.md)
+  2.15 [Refuse to Work](/my-website/docs/Lodging/Labour%20Cases/Refuse%20to%20Work.md) --> -->
