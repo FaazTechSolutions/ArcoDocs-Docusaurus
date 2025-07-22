@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Employee List
 
-## Introduction for Employee
+## Introduction for Employee Module
 
 Employee is a person who is arrived to arco manpower company to join as a employee in arco or any other company or any individual customer (House worker).
 
