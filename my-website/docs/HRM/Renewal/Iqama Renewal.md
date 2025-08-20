@@ -53,7 +53,7 @@ sidebar_position : 1
 
 ### 3. Iqama Less than 30 days
 
-  - If expiry is <30 days and process is before Work Permit stage, system moves here. User completes stage by selecting renewal period.
+  - If expiry is `<30` days and process is before Work Permit stage, system moves here. User completes stage by selecting renewal period.
 
   - **Actions :**
     - **Move to Work Permit -** Advances the request to the Work Permit stage.
