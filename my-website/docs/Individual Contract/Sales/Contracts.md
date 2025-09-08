@@ -117,8 +117,23 @@ Optional authorized contact person for the contract.
 
     - If Employee is assigned - Status changed to `"Waiting for Delivery".`
     - If No Employee assigned - Status changed to `"Waiting for Selection".`
+    - If Customer has overdues on previous contract - Status changed to `"Waiting for Dues"`.
 
-### 3. Waiting for Selection
+### 3. Waiting for Dues
+
+  - After Customer signed the contract, if customer has overdues in the previous contract, it will be listed here to waiting to complete the previous dues.
+
+  - After Customer reserved the professional, the professional will be onhold for customer for the 30 minutes, only if he has overdue.
+
+  - When the customer has settled the overdues, the professional has been released (only if he settled the overdues within 30 minutes).
+
+  - If the customer doesn't settle the overdue within 30 minutes, the reserved professional has been automatically released back into availability.
+
+  - Once the Customer has paid the over dues, the contracts were moved automatically to the next process.
+
+  - Or else, employee can move the contract manually by clicking `"Resume Contract"` button.
+
+### 4. Waiting for Selection
 
   - Customer/user can select an employee (with `"Ready to Work"` status).
 
@@ -127,7 +142,7 @@ Optional authorized contact person for the contract.
     - Employee status changed to Booked.
     - Contract status changed to Waiting for Delivery.
 
-### 4. Waiting for Delivery
+### 5. Waiting for Delivery
 
   - User can unassign the employee before delivery if needed.
 
@@ -137,7 +152,7 @@ Optional authorized contact person for the contract.
 
   - Once delivery is successfully completed - Contract status changes to `"Valid"`.
 
-### 5. Valid
+### 6. Valid
 
   - The employee is actively working at the customer’s location.
 
@@ -151,7 +166,7 @@ Optional authorized contact person for the contract.
 
   - Contract status changes to `"Waiting for Exchange"`.
 
-### 6. Waiting for Exchange
+### 7. Waiting for Exchange
 
   - The contract is still active, but the assigned employee has returned (e.g., escape, lodging, vacation).
 
@@ -161,17 +176,17 @@ Optional authorized contact person for the contract.
 
   - Once a new employee is selected - Status changes to `"Waiting for Delivery"`.
 
-### 7. Near to Expire
+### 8. Near to Expire
 
   - When the remaining contract days (Total Days - Used Days) are less than 15,
 the system automatically updates the contract status to `"Near to Expire"`.
 
-### 8. Expired
+### 9. Expired
 
   - When the remaining contract days (Total Days - Used Days) are less than 0,
 the system automatically updates the contract status to `"Expired"`.
 
-### 9. Ended
+### 10. Ended
 
   - The employee has returned from the assignment.
 
@@ -179,7 +194,7 @@ the system automatically updates the contract status to `"Expired"`.
 
   - Once the customer requests to end, the status updates to `"Ended"`.
 
-### 10. Ended with Penalty
+### 11. Ended with Penalty
 
   - The employee has returned from the assignment.
 
@@ -187,13 +202,23 @@ the system automatically updates the contract status to `"Expired"`.
 
   - If the customer requests to end, the status changes to `"Ended with Penalty"`.
 
-### 11. Cancelled
+### 12. Cancelled
+
+  - Customers can cancel the suspended contracts, only if specific conditions are met,
+
+    - No Expired contract and extension.
+    - Overdue installment total is less than the new contract value.
 
   - Customer requests to cancel the contract before any employee is delivered.
 
+  - Once Customer applied the cancellation, the system checks the rules,
+    - **If no overdues** - Proceed for the refund process.
+
+    - **If system found overdues** - First deduct the amount for the overdues and applies for the standard cancellation policy and refunds any remaining balance.
+
   - Contract status changes to `"Cancelled"`.
 
-### 12. Terminated
+### 13. Terminated
 
   - Customer requests to cancel the contract after at least one employee has been delivered.
 
