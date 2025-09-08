@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Contracts | Arco Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Contracts"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Contracts | Arco Documentation"><meta data-rh="true" name="description" content="Contracts Overview"><meta data-rh="true" property="og:description" content="Contracts Overview"><link data-rh="true" rel="icon" href="/ArcoDocs-Docusaurus/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Contracts"><link data-rh="true" rel="alternate" href="https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Contracts" hreflang="en"><link data-rh="true" rel="alternate" href="https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Contracts" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Individual Contract","item":"https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/category/individual-contract"},{"@type":"ListItem","position":2,"name":"Sales","item":"https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/category/sales"},{"@type":"ListItem","position":3,"name":"Contracts","item":"https://faaztechsolutions.github.io/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Contracts"}]}</script><link rel="stylesheet" href="/ArcoDocs-Docusaurus/assets/css/styles.0f514b2e.css">
-<script src="/ArcoDocs-Docusaurus/assets/js/runtime~main.b0f5f032.js" defer="defer"></script>
+<script src="/ArcoDocs-Docusaurus/assets/js/runtime~main.593765e2.js" defer="defer"></script>
 <script src="/ArcoDocs-Docusaurus/assets/js/main.3b726ba3.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -151,10 +151,32 @@
 <ul>
 <li>If Employee is assigned - Status changed to <code>&quot;Waiting for Delivery&quot;.</code></li>
 <li>If No Employee assigned - Status changed to <code>&quot;Waiting for Selection&quot;.</code></li>
+<li>If Customer has overdues on previous contract - Status changed to <code>&quot;Waiting for Dues&quot;</code>.</li>
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-waiting-for-selection">3. Waiting for Selection<a href="#3-waiting-for-selection" class="hash-link" aria-label="Direct link to 3. Waiting for Selection" title="Direct link to 3. Waiting for Selection">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-waiting-for-dues">3. Waiting for Dues<a href="#3-waiting-for-dues" class="hash-link" aria-label="Direct link to 3. Waiting for Dues" title="Direct link to 3. Waiting for Dues">​</a></h3>
+<ul>
+<li>
+<p>After Customer signed the contract, if customer has overdues in the previous contract, it will be listed here to waiting to complete the previous dues.</p>
+</li>
+<li>
+<p>After Customer reserved the professional, the professional will be onhold for customer for the 30 minutes, only if he has overdue.</p>
+</li>
+<li>
+<p>When the customer has settled the overdues, the professional has been released (only if he settled the overdues within 30 minutes).</p>
+</li>
+<li>
+<p>If the customer doesn&#x27;t settle the overdue within 30 minutes, the reserved professional has been automatically released back into availability.</p>
+</li>
+<li>
+<p>Once the Customer has paid the over dues, the contracts were moved automatically to the next process.</p>
+</li>
+<li>
+<p>Or else, employee can move the contract manually by clicking <code>&quot;Resume Contract&quot;</code> button.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-waiting-for-selection">4. Waiting for Selection<a href="#4-waiting-for-selection" class="hash-link" aria-label="Direct link to 4. Waiting for Selection" title="Direct link to 4. Waiting for Selection">​</a></h3>
 <ul>
 <li>
 <p>Customer/user can select an employee (with <code>&quot;Ready to Work&quot;</code> status).</p>
@@ -167,7 +189,7 @@
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-waiting-for-delivery">4. Waiting for Delivery<a href="#4-waiting-for-delivery" class="hash-link" aria-label="Direct link to 4. Waiting for Delivery" title="Direct link to 4. Waiting for Delivery">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-waiting-for-delivery">5. Waiting for Delivery<a href="#5-waiting-for-delivery" class="hash-link" aria-label="Direct link to 5. Waiting for Delivery" title="Direct link to 5. Waiting for Delivery">​</a></h3>
 <ul>
 <li>
 <p>User can unassign the employee before delivery if needed.</p>
@@ -182,7 +204,7 @@
 <p>Once delivery is successfully completed - Contract status changes to <code>&quot;Valid&quot;</code>.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-valid">5. Valid<a href="#5-valid" class="hash-link" aria-label="Direct link to 5. Valid" title="Direct link to 5. Valid">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-valid">6. Valid<a href="#6-valid" class="hash-link" aria-label="Direct link to 6. Valid" title="Direct link to 6. Valid">​</a></h3>
 <ul>
 <li>
 <p>The employee is actively working at the customer’s location.</p>
@@ -202,7 +224,7 @@
 <p>Contract status changes to <code>&quot;Waiting for Exchange&quot;</code>.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-waiting-for-exchange">6. Waiting for Exchange<a href="#6-waiting-for-exchange" class="hash-link" aria-label="Direct link to 6. Waiting for Exchange" title="Direct link to 6. Waiting for Exchange">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-waiting-for-exchange">7. Waiting for Exchange<a href="#7-waiting-for-exchange" class="hash-link" aria-label="Direct link to 7. Waiting for Exchange" title="Direct link to 7. Waiting for Exchange">​</a></h3>
 <ul>
 <li>
 <p>The contract is still active, but the assigned employee has returned (e.g., escape, lodging, vacation).</p>
@@ -217,17 +239,17 @@
 <p>Once a new employee is selected - Status changes to <code>&quot;Waiting for Delivery&quot;</code>.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-near-to-expire">7. Near to Expire<a href="#7-near-to-expire" class="hash-link" aria-label="Direct link to 7. Near to Expire" title="Direct link to 7. Near to Expire">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-near-to-expire">8. Near to Expire<a href="#8-near-to-expire" class="hash-link" aria-label="Direct link to 8. Near to Expire" title="Direct link to 8. Near to Expire">​</a></h3>
 <ul>
 <li>When the remaining contract days (Total Days - Used Days) are less than 15,
 the system automatically updates the contract status to <code>&quot;Near to Expire&quot;</code>.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-expired">8. Expired<a href="#8-expired" class="hash-link" aria-label="Direct link to 8. Expired" title="Direct link to 8. Expired">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="9-expired">9. Expired<a href="#9-expired" class="hash-link" aria-label="Direct link to 9. Expired" title="Direct link to 9. Expired">​</a></h3>
 <ul>
 <li>When the remaining contract days (Total Days - Used Days) are less than 0,
 the system automatically updates the contract status to <code>&quot;Expired&quot;</code>.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="9-ended">9. Ended<a href="#9-ended" class="hash-link" aria-label="Direct link to 9. Ended" title="Direct link to 9. Ended">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="10-ended">10. Ended<a href="#10-ended" class="hash-link" aria-label="Direct link to 10. Ended" title="Direct link to 10. Ended">​</a></h3>
 <ul>
 <li>
 <p>The employee has returned from the assignment.</p>
@@ -239,7 +261,7 @@ the system automatically updates the contract status to <code>&quot;Expired&quot
 <p>Once the customer requests to end, the status updates to <code>&quot;Ended&quot;</code>.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="10-ended-with-penalty">10. Ended with Penalty<a href="#10-ended-with-penalty" class="hash-link" aria-label="Direct link to 10. Ended with Penalty" title="Direct link to 10. Ended with Penalty">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="11-ended-with-penalty">11. Ended with Penalty<a href="#11-ended-with-penalty" class="hash-link" aria-label="Direct link to 11. Ended with Penalty" title="Direct link to 11. Ended with Penalty">​</a></h3>
 <ul>
 <li>
 <p>The employee has returned from the assignment.</p>
@@ -251,16 +273,34 @@ the system automatically updates the contract status to <code>&quot;Expired&quot
 <p>If the customer requests to end, the status changes to <code>&quot;Ended with Penalty&quot;</code>.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="11-cancelled">11. Cancelled<a href="#11-cancelled" class="hash-link" aria-label="Direct link to 11. Cancelled" title="Direct link to 11. Cancelled">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="12-cancelled">12. Cancelled<a href="#12-cancelled" class="hash-link" aria-label="Direct link to 12. Cancelled" title="Direct link to 12. Cancelled">​</a></h3>
 <ul>
 <li>
+<p>Customers can cancel the suspended contracts, only if specific conditions are met,</p>
+<ul>
+<li>No Expired contract and extension.</li>
+<li>Overdue installment total is less than the new contract value.</li>
+</ul>
+</li>
+<li>
 <p>Customer requests to cancel the contract before any employee is delivered.</p>
+</li>
+<li>
+<p>Once Customer applied the cancellation, the system checks the rules,</p>
+<ul>
+<li>
+<p><strong>If no overdues</strong> - Proceed for the refund process.</p>
+</li>
+<li>
+<p><strong>If system found overdues</strong> - First deduct the amount for the overdues and applies for the standard cancellation policy and refunds any remaining balance.</p>
+</li>
+</ul>
 </li>
 <li>
 <p>Contract status changes to <code>&quot;Cancelled&quot;</code>.</p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="12-terminated">12. Terminated<a href="#12-terminated" class="hash-link" aria-label="Direct link to 12. Terminated" title="Direct link to 12. Terminated">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="13-terminated">13. Terminated<a href="#13-terminated" class="hash-link" aria-label="Direct link to 13. Terminated" title="Direct link to 13. Terminated">​</a></h3>
 <ul>
 <li>
 <p>Customer requests to cancel the contract after at least one employee has been delivered.</p>
@@ -268,6 +308,6 @@ the system automatically updates the contract status to <code>&quot;Expired&quot
 <li>
 <p>Contract status changes to <code>&quot;Terminated&quot;</code>.</p>
 </li>
-</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Individual Contract/Sales/Contracts.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Customers"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Customers</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Opportunity"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Opportunity</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#contracts-overview" class="table-of-contents__link toc-highlight">Contracts Overview</a><ul><li><a href="#purpose" class="table-of-contents__link toc-highlight">Purpose:</a></li><li><a href="#contract-creation-sources" class="table-of-contents__link toc-highlight">Contract Creation Sources</a></li><li><a href="#1-branch-manual-by-salesperson" class="table-of-contents__link toc-highlight">1. Branch (Manual by Salesperson)</a></li><li><a href="#2-from-mobile-app-via-opportunity" class="table-of-contents__link toc-highlight">2. From Mobile App (via Opportunity)</a></li></ul></li><li><a href="#contract-details-overview" class="table-of-contents__link toc-highlight">Contract Details Overview</a><ul><li><a href="#1-customer-information" class="table-of-contents__link toc-highlight">1. Customer Information</a></li><li><a href="#2-contract-information" class="table-of-contents__link toc-highlight">2. Contract Information</a></li><li><a href="#3-line-information-active-contract-line" class="table-of-contents__link toc-highlight">3. Line Information (Active Contract Line)</a></li><li><a href="#4-employee-assignment-information" class="table-of-contents__link toc-highlight">4. Employee Assignment Information</a></li><li><a href="#5-finance-information" class="table-of-contents__link toc-highlight">5. Finance Information</a></li><li><a href="#6-contract-delegation" class="table-of-contents__link toc-highlight">6. Contract Delegation</a></li><li><a href="#7-comments-section" class="table-of-contents__link toc-highlight">7. Comments Section</a></li></ul></li><li><a href="#contract-flow-and-status" class="table-of-contents__link toc-highlight">Contract Flow and Status</a><ul><li><a href="#1-new" class="table-of-contents__link toc-highlight">1. New</a></li><li><a href="#2-document-verification" class="table-of-contents__link toc-highlight">2. Document Verification</a></li><li><a href="#3-waiting-for-selection" class="table-of-contents__link toc-highlight">3. Waiting for Selection</a></li><li><a href="#4-waiting-for-delivery" class="table-of-contents__link toc-highlight">4. Waiting for Delivery</a></li><li><a href="#5-valid" class="table-of-contents__link toc-highlight">5. Valid</a></li><li><a href="#6-waiting-for-exchange" class="table-of-contents__link toc-highlight">6. Waiting for Exchange</a></li><li><a href="#7-near-to-expire" class="table-of-contents__link toc-highlight">7. Near to Expire</a></li><li><a href="#8-expired" class="table-of-contents__link toc-highlight">8. Expired</a></li><li><a href="#9-ended" class="table-of-contents__link toc-highlight">9. Ended</a></li><li><a href="#10-ended-with-penalty" class="table-of-contents__link toc-highlight">10. Ended with Penalty</a></li><li><a href="#11-cancelled" class="table-of-contents__link toc-highlight">11. Cancelled</a></li><li><a href="#12-terminated" class="table-of-contents__link toc-highlight">12. Terminated</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Individual Contract/Sales/Contracts.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Customers"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Customers</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ArcoDocs-Docusaurus/docs/Individual Contract/Sales/Opportunity"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Opportunity</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#contracts-overview" class="table-of-contents__link toc-highlight">Contracts Overview</a><ul><li><a href="#purpose" class="table-of-contents__link toc-highlight">Purpose:</a></li><li><a href="#contract-creation-sources" class="table-of-contents__link toc-highlight">Contract Creation Sources</a></li><li><a href="#1-branch-manual-by-salesperson" class="table-of-contents__link toc-highlight">1. Branch (Manual by Salesperson)</a></li><li><a href="#2-from-mobile-app-via-opportunity" class="table-of-contents__link toc-highlight">2. From Mobile App (via Opportunity)</a></li></ul></li><li><a href="#contract-details-overview" class="table-of-contents__link toc-highlight">Contract Details Overview</a><ul><li><a href="#1-customer-information" class="table-of-contents__link toc-highlight">1. Customer Information</a></li><li><a href="#2-contract-information" class="table-of-contents__link toc-highlight">2. Contract Information</a></li><li><a href="#3-line-information-active-contract-line" class="table-of-contents__link toc-highlight">3. Line Information (Active Contract Line)</a></li><li><a href="#4-employee-assignment-information" class="table-of-contents__link toc-highlight">4. Employee Assignment Information</a></li><li><a href="#5-finance-information" class="table-of-contents__link toc-highlight">5. Finance Information</a></li><li><a href="#6-contract-delegation" class="table-of-contents__link toc-highlight">6. Contract Delegation</a></li><li><a href="#7-comments-section" class="table-of-contents__link toc-highlight">7. Comments Section</a></li></ul></li><li><a href="#contract-flow-and-status" class="table-of-contents__link toc-highlight">Contract Flow and Status</a><ul><li><a href="#1-new" class="table-of-contents__link toc-highlight">1. New</a></li><li><a href="#2-document-verification" class="table-of-contents__link toc-highlight">2. Document Verification</a></li><li><a href="#3-waiting-for-dues" class="table-of-contents__link toc-highlight">3. Waiting for Dues</a></li><li><a href="#4-waiting-for-selection" class="table-of-contents__link toc-highlight">4. Waiting for Selection</a></li><li><a href="#5-waiting-for-delivery" class="table-of-contents__link toc-highlight">5. Waiting for Delivery</a></li><li><a href="#6-valid" class="table-of-contents__link toc-highlight">6. Valid</a></li><li><a href="#7-waiting-for-exchange" class="table-of-contents__link toc-highlight">7. Waiting for Exchange</a></li><li><a href="#8-near-to-expire" class="table-of-contents__link toc-highlight">8. Near to Expire</a></li><li><a href="#9-expired" class="table-of-contents__link toc-highlight">9. Expired</a></li><li><a href="#10-ended" class="table-of-contents__link toc-highlight">10. Ended</a></li><li><a href="#11-ended-with-penalty" class="table-of-contents__link toc-highlight">11. Ended with Penalty</a></li><li><a href="#12-cancelled" class="table-of-contents__link toc-highlight">12. Cancelled</a></li><li><a href="#13-terminated" class="table-of-contents__link toc-highlight">13. Terminated</a></li></ul></li></ul></div></div></div></div></main></div></div></div></div>
 </body>
 </html>
