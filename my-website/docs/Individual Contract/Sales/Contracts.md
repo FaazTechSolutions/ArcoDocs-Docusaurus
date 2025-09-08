@@ -121,9 +121,9 @@ Optional authorized contact person for the contract.
 
 ### 3. Waiting for Dues
 
-  - After Customer signed the contract, if customer has overdues in the previous contract, it will be listed here to waiting to complete the previous dues.
+  - After Customer reserved the professional and signed the contract and make payment, it will be listed here for waiting to complete the previous dues (if he doesn't pay the dues for previous contract).
 
-  - After Customer reserved the professional, the professional will be onhold for customer for the 30 minutes, only if he has overdue.
+  - The Reserved professional will be onhold for customer for the 30 minutes, only if customer has overdue.
 
   - When the customer has settled the overdues, the professional has been released (only if he settled the overdues within 30 minutes).
 
