@@ -20,7 +20,7 @@ sidebar_position : 6
 
   - **Amount Calculation:**
 
-    - Transport cost is calculated based on the predefined **"Transport Cost" setup**.
+    - Transport cost is calculated based on the predefined **"Transport Cost"** setup.
 
     - A **One-time Invoice** is generated with the calculated transport cost.
 
@@ -77,6 +77,6 @@ sidebar_position : 6
   - **If Return Purpose = "Terminate" or "End":**
     - Corresponding **Terminate** or **End Process** is triggered.
 
-### Cancelled
+### 6. Cancelled
 
   - At **any stage**, a user has the ability to cancel the return request

@@ -57,7 +57,7 @@ sidebar_position : 1
 ### 1. Accountant Approval
 
   - If Refund Option = Wallet:
-    - Stage is automatically completed.=
+    - Stage is automatically completed.
     - Contract balance is moved to the customer wallet.
     - Penalty amount is excluded from wallet refund.
 
