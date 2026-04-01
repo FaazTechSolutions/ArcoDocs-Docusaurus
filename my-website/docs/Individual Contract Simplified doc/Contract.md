@@ -48,48 +48,86 @@ Contracts can be created from the following sources:
 ## Contract Details
 
 ### 1. Customer Information
+  - Basic details of the customer associated with the contract (name, contact, etc.)
 
 ### 2. Contract Information
-- Contract Date  
-- Location  
-- Branch  
-- Contract Status  
-- Total Contract Days  
-  - Used Days  
-  - Remaining Days  
+
+  - Contract Date – The date the contract was created.
+  - Location – Service location
+  - Branch – Branch where the contract was initiated.
+  - Contract Status – Current status (e.g., New, Document Verification, Active, Completed)
+  - Total Contract Days – Total duration of the contract.
+
+    - Used Days – Days already utilized
+    - Remaining Days – Days left in the contract
 
 ### 3. Line Information (Active Contract Line)
-- Package  
-- Period  
-- Amount Details  
+  - **Package –** Selected service package
+  - **Period –** Duration (e.g., 30 days, 90 days)
+  - **Amount Details –** Financial breakdown (advance, installments, total amount)
 
 ### 4. Employee Assignment Information
-- Employee ID  
-- Valid From / To  
-- Contract Line  
-- Status:
-  - Booked  
-  - Unassigned  
-  - Unassigned with Payment  
-  - Delivered  
-  - Returned  
+
+Tracks which employee is assigned to the contract and their assignment status.
+
+  - Employee ID
+
+  - Valid From / Valid To – Assignment period
+
+  - Contract Line – Refers to the specific package line this assignment applies to
+
+  - Status:
+    - **Booked –** Employee is reserved
+    - **UnAssigned –** Not assigned yet
+    - **Unassigned with Payment –** Employee removed, with financial implications
+    - **Delivered –** Employee delivered to customer
+    - **Returned –** Employee returned from assignment
 
 ### 5. Finance Information
-- Advance Payment  
-- Payments  
-- Invoice  
-- Credit Note  
-- Debit Note  
-- Refund  
 
-### 6. Contract Delegation(SPOC for the Contract from the customer side)
-- customer  can assign multiple contract delegation who will the point of contact person from customer side
-- Name  
-- ID Number  
-- Mobile Number  
-- Active Status  
+Tracks all financial activities related to the contract.
+
+  - Advance Payment
+  - Payment (Total or installment payments)
+  - Invoice
+  - Credit Note
+  - Debit Note
+  - Refund
+
+### 6. Contract Delegation
+
+Optional authorized contact person for the contract.
+
+  - Name
+  - ID Number
+  - Mobile Number
+  - IsActive – Indicates whether this delegate is currently active.
 
 ### 7. Comments Section
+
+  - Free-text field for internal or customer-facing notes related to the contract.
+
+### 8. Contract Package History
+  - contract package change history will be tracked here
+### 9. Contract Status History
+  - contract status change history will be tracked here
+### 10. Employee History
+  - contract employee change history will be tracked here
+### 11. Delivery Request
+  - contract delivery request history will be tracked here
+### 12. Customer Request
+  - Customer Request is detailedly explained in the Customer Request section below
+### 13. Pending Request
+    - pending Request is detailedly explained in the Pending Request section below
+### 14. Escape Request
+  - Escape Request is detailedly explained in the Escape Request section below
+### 15. Sadad Pending Request
+  - sadad pending  bills will be listed here
+### 16. Sanad Document
+  - Sanad related document will be shown here
+### 17. Contract Task
+  - contract related task will be listed here
+
 
 ---
 
@@ -575,9 +613,6 @@ example: if the user is requesting for extend contract the request will be creat
 - Refund Transaction will create and settle with available balance  
 - If Refund from wallet and wallet have non refundable amount  
   - System create Revenue invoice from Non Refundable amount and close the balance  
-
-
----
 
 ### Change Nationality
 - Not available

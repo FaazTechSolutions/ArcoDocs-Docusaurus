@@ -19,25 +19,76 @@ Customers (users) can create and update the following details:
 - Female Contact Person Number (required if the labor is a female candidate)  
 
 #### 2. Work Information
+    - Customer Working Sector
+    - Position
+    - Work Place
+    - Customer Monthly Salary
+    - Other Income
 
 #### 3. Location Information
+    - Location Name
+    - City
+    - Address Details
+    - Additional Details
 
 #### 4. Bank Details
+    - IBAN Number
+    - Bank
+    - Status
 
 #### 5. Family Information
+    - No.of.members in Family
+    - No.of.Wives
+    - No.of.Handicaped
+    - Notes about the Old age person
+    - Notes about the Handicapped
 
----
+#### 6. Muqeem Info
+  - User Id
+  - Id Version No	
+  - Nationality Code	
+  - Issue Location	
+  - Assurance level	
+  - Iqama Expiry Date Hijri	
+  - Iqama Expiry Date Gregorian
+  - Expiry Date Hijri	
+  - Expiry Date Gregorian
+  - Card Issue Date Hijri	
+  - Card Issue Date Gregorian
 
-### Customer Delegation (to contact assistant of the customer )
+**Customer Details Actions**
+- inside the customer details page we have the following actions:
+  - create perday contract
+  - low cost contract
+  - installment contract
+  - block list(block customer)
+  - add / view / edit / delete Location
+  - add / view / edit / delete contact
+  - add / view / edit / delete additional contact info
+  - add / view / edit / delete Customer Delegation
+  - view Contract List
+  - add / view / edit / delete Customer Group Assignment
+  - upload profile
+  - Edit Customer
+  - attach 
+  - update bank details
+  - activate/inactivate bank account
+  - update email
+  - update mobile number
 
-Customers can assign a contact person for communication.
-Customer can add multiple delegation.
+  - Finance
+    - view Customer Balance
+    - Customer Invoice(Pay Invoice/view Invoice)
+    - Payment Details
+    - Advance Payment
+    - Customer Refund (Refund Request)
+    - Wallet Transaction
 
-**Required Details:**
-- Name  
-- ID Number  
-- Mobile Number  
-- Status (Active / Inactive)  
+- **Customer Delegation (Contact Person)**
+    - Customers can assign contact persons with these details:
+        - Name
+        - ID Number
+        - Mobile Number
+        - **Status:** IsActive
 
-**Activation:**
-- The delegation will be activated only after verification through the customer's registered mobile number.
+    **Note:** Activation requires verification of the contact person’s mobile number.
