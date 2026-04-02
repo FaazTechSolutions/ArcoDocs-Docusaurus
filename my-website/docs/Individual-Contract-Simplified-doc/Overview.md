@@ -1,8 +1,14 @@
 ---
 sidebar_position : 1
 ---
-## Individual Contract
 
+---
+## individual contract  flow
+
+**[Customer Creation](../Individual-Contract-Simplified-doc/Customer.md) -> [Opportunity](../Individual-Contract-Simplified-doc/Opportunity.md) --> [Contract](../Individual-Contract-Simplified-doc/Contract.md)**
+
+---
+## Individual Contract
 An **Individual Contract** is used to supply labor to an individual customer based on their specific needs (for example: driver, cleaner, etc.) with the legal agreement(contract mentioned below) 
 
 ### Contract Types
@@ -36,3 +42,6 @@ All activities are tracked within the system, including:
 - Return of labor to Arco lodging  
 
 The system follows a defined workflow, which will be explained in the following documentation.
+---
+
+

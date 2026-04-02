@@ -1,6 +1,13 @@
 ---
 sidebar_position : 5
 ---
+---
+
+### Contract Flow
+
+**[new](#new) --> [document verification](#document-verification) --> [Cancel](#cancel) --> [waiting for selection](#waiting-for-selection) --> [waiting for delivery](#waiting-for-delivery) --> [valid](#valid) --> [terminated](#terminate)	--> [waiting for terminate](#waiting-for-terminate) --> [waiting for exchange](#waiting-for-exchange) --> [near to expire](#near-to-expire) --> [expired](#expired)  --> [ended](#ended) --> [ended with penalty](#ended-with-penalty) --> [ended with transfer](#ended-with-transfer) --> [under request](#under-request)**
+
+---
 ## Contract
 
 A **Contract** is a legal agreement used to supply labor to an individual customer based on their specific needs (for example: driver, cleaner, etc.).
@@ -133,7 +140,7 @@ Optional authorized contact person for the contract.
 
 ## Contract Flow and Status
 
-### Pending Status(still the contract is not active)
+### 1.Pending Status(still the contract is not active)
 #### New
 - When a contract is created from a branch, its status is set to **New**.  
 - based on the selected package An advance payment  is required.  
