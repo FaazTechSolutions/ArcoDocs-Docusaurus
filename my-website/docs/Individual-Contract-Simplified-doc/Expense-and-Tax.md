@@ -4,13 +4,16 @@ sidebar_position : 7
 # Expense and Tax
 
 ### Expense List
+- Expense List is used to create a list of expenses which is used in contract example: Visa charge,Ministry of Labor Charge,Iqama Charge,Medical Test and so on..
+- this created expenses will be used in contract creation
 - Master setup Expense List with following details:
-  - Description
-  - Expense Type
+  - Transaction Type
     - Hour
     - Fee
     - Item
     - OnAccount
+  - Transaction Category(Required if Transaction Type = fee)
+  - Default Paid By
   - Default Payment Type
     - Fixed
     - ToCalculate
