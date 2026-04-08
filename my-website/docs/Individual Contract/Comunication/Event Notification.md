@@ -6,7 +6,12 @@ sidebar_position : 1
 
 ## Overview
 
-The Event Notification setup is used to manage and monitor system-generated notifications. It allows users to view notification logs, enable or disable specific events, and update notification content.
+The Event Notification setup is used to manage and monitor system-generated notifications. It allows users to view notification logs, enable or disable specific events, and update notification content.the notifications are categorized as below
+
+- Contract Notification
+- Contract Request Notification
+- Employee movement Notification
+- Invoice Notification
 
 ## Usage
 
